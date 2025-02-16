@@ -35,3 +35,6 @@ TODO:
 
   * do we want to permit comments (of some kind) within the example files?
     (rather than being forced to put them in README.rst files)
+
+This is unofficial, but I've proposed pursuing it as
+https://github.com/oasis-tcs/sarif-spec/issues/677
