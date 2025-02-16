@@ -1,0 +1,10 @@
+{
+  "version": "2.1.0",
+  "runs": [{
+    "tool": { "driver": { "name": "example" } },
+    "results": [
+      { "message": { "text" : "before {} after" },
+      	"locations": [] }
+    ]
+  }]
+}

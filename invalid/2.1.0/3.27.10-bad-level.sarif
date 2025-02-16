@@ -1,0 +1,20 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "foo"
+        }
+      },
+      "results": [
+        {
+	  "level": "mostly harmless",
+          "message": {
+            "text": "bar"
+          }
+        }
+      ]
+    }
+  ]
+}

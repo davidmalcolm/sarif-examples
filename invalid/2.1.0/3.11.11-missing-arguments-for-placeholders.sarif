@@ -1,0 +1,9 @@
+{
+  "version": "2.1.0",
+  "runs": [{
+    "tool": { "driver": { "name": "example" } },
+    "results": [
+      { "message": { "text" : "the {0} {1} fox jumps over the {2} dog" } }
+    ]
+  }]
+}

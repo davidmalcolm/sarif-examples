@@ -1,0 +1,13 @@
+{"$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json",
+ "version": "2.1.0",
+ "runs": [{"tool": {"driver": {"name": "hand-written"}},
+           "results": [{"message": {"text": "001: this is a test"},
+	   	        "locations": []},
+
+                       {"message": {"text": "002: Prohibited term used in [para\\[0\\]\\\\spans\\[2\\](1)."},
+	   	        "locations": []},
+                       
+                       {"message": {"text": "003: Prohibited term used in [para\\[0\\]\\\\spans\\[2\\]](1)."},
+	   	        "locations": []}
+
+]}]}
