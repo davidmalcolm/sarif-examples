@@ -30,9 +30,6 @@ TODO:
 
   * populate
 
-  * a script to check that all supposedly valid files are indeed
-    schema-compliant
-
   * do we want to permit comments (of some kind) within the example files?
     (rather than being forced to put them in README.rst files)
 
