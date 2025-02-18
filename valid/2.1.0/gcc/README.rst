@@ -121,9 +121,31 @@ Notes
                  |      |   (6) ...whilst waiting for lock a in thread 2 (acquired by thread 1 at (2))
                  |
 
+* bad-pragma.c.sarif:
+
+  Example of GCC 15 output from its sarif-output DejaGnu testsuite.
 
 * error-with-note.sarif:
 
   Hand-written example of GCC SARIF output for an ``error`` followed by a
   ``note``, with the latter represented via an element of ``relatedLocations``
   with a ``message``.
+
+* include-chain-{1,2}.c.sarif
+
+  Examples of GCC 15 output from its sarif-output DejaGnu testsuite
+  showing chains of ``include`` (both in a result, and in a codeFlow).
+
+* missing-semicolon.c.sarif
+
+  Example of GCC 15 output from its sarif-output DejaGnu testsuite.
+
+* no-diagnostics.c.sarif
+
+  Example of GCC 15 output from its sarif-output DejaGnu testsuite.
+
+* werror.c.sarif
+
+  Example of GCC 15 output from its sarif-output DejaGnu testsuite
+  where ``-Werror=unused-variable`` was used to promote a warning to
+  an error.
