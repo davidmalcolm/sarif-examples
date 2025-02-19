@@ -1,0 +1,70 @@
+{
+    "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/cos02/schemas/sarif-schema-2.1.0.json",
+    "runs": [
+        {
+            "artifacts": [
+                {
+                    "length": 57,
+                    "location": {
+                        "index": 0,
+                        "uri": "file://<source>"
+                    },
+                    "mimeType": "text/plain",
+                    "roles": [
+                        "resultFile"
+                    ]
+                }
+            ],
+            "columnKind": "unicodeCodePoints",
+            "results": [
+                {
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "index": 0,
+                                    "uri": "file://<source>"
+                                },
+                                "region": {
+                                    "endColumn": 13,
+                                    "startColumn": 13,
+                                    "startLine": 5
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "expected ';' after expression"
+                    },
+                    "ruleId": "1536",
+                    "ruleIndex": 0
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "fullName": "",
+                    "informationUri": "https://clang.llvm.org/docs/UsersManual.html",
+                    "language": "en-US",
+                    "name": "clang",
+                    "rules": [
+                        {
+                            "defaultConfiguration": {
+                                "enabled": true,
+                                "level": "error",
+                                "rank": 50
+                            },
+                            "fullDescription": {
+                                "text": ""
+                            },
+                            "id": "1536",
+                            "name": ""
+                        }
+                    ],
+                    "version": "19.1.0"
+                }
+            }
+        }
+    ],
+    "version": "2.1.0"
+}
