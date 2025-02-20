@@ -1,0 +1,105 @@
+{
+    "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/cos02/schemas/sarif-schema-2.1.0.json",
+    "runs": [
+        {
+            "artifacts": [
+                {
+                    "length": 18,
+                    "location": {
+                        "index": 0,
+                        "uri": "file://<source>"
+                    },
+                    "mimeType": "text/plain",
+                    "roles": [
+                        "resultFile"
+                    ]
+                }
+            ],
+            "columnKind": "unicodeCodePoints",
+            "results": [
+                {
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "index": 0,
+                                    "uri": "file://<source>"
+                                },
+                                "region": {
+                                    "endColumn": 2,
+                                    "startColumn": 2,
+                                    "startLine": 2
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "expected '}'"
+                    },
+                    "ruleId": "14",
+                    "ruleIndex": 0
+                },
+                {
+                    "level": "note",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "index": 0,
+                                    "uri": "file://<source>"
+                                },
+                                "region": {
+                                    "endColumn": 1,
+                                    "startColumn": 1,
+                                    "startLine": 2
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "to match this '{'"
+                    },
+                    "ruleId": "109",
+                    "ruleIndex": 1
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "fullName": "",
+                    "informationUri": "https://clang.llvm.org/docs/UsersManual.html",
+                    "language": "en-US",
+                    "name": "clang",
+                    "rules": [
+                        {
+                            "defaultConfiguration": {
+                                "enabled": true,
+                                "level": "error",
+                                "rank": 50
+                            },
+                            "fullDescription": {
+                                "text": ""
+                            },
+                            "id": "14",
+                            "name": ""
+                        },
+                        {
+                            "defaultConfiguration": {
+                                "enabled": true,
+                                "level": "note",
+                                "rank": -1
+                            },
+                            "fullDescription": {
+                                "text": ""
+                            },
+                            "id": "109",
+                            "name": ""
+                        }
+                    ],
+                    "version": "21.0.0git"
+                }
+            }
+        }
+    ],
+    "version": "2.1.0"
+}
